@@ -1,0 +1,11 @@
+x = input("Enter a number: ")
+y = input("Enter a second number: ")
+result = float(x) + float(y)
+message = "The result of " + x + " plus " + y + " is " + str(result)
+print(message)
+
+x = input("Enter a number: ")
+y = input("Enter a second number: ")
+result = int(float(x) + float(y))
+message = "The result of " + x + " plus " + y + " is " + str(result)
+print(message)
