@@ -1,8 +1,8 @@
-def get_result(result):
-    if result == "a":
-        return True
-    else:
-        return False
+def get_result(answer):
+    if answer == a:
+        return true
+    else
+        return false
 
 print("Do you like programing?")
 print("a. Yes")
@@ -11,5 +11,5 @@ result = input("Enter a or b: ")
 
 if get_result(result):
     print("Awesome! Programming is really fun!")
-else:
-    print("Hang in there! It's an acquired taste!")
+else
+print("Hang in there! It's an acquired taste!")
